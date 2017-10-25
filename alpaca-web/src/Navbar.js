@@ -9,7 +9,6 @@ class Navbar extends Component{
        collapseNav: false
       }
       this.toggleNav = this.toggleNav.bind(this)
-    // this.closeNav = this.closeNav.bind(this)
     }
 
     toggleNav() {
