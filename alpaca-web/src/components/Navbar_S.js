@@ -37,7 +37,7 @@ class Navbar_S extends Component{
               </a>
               <a className="navbar-brand mr-auto ml-3" href="#"><img src={Logo1} width="25px" className="mr-sm-2 mr-2"/><img src={Logo2} width="190px" /></a>
               <div className="collapse navbar-collapse d-none" id="navbarCollapse">
-                <NavbarMenus side={false}/>
+                <NavbarMenus closeNav={this.closeNav.bind(this)} side={false}/>
               </div>
             </nav>
             <div className={`bg-overlay bg-overlay-${this.state.collapseNav ?`on`:`off`}`}>
@@ -56,7 +56,7 @@ class Navbar_S extends Component{
                 </div>
               </div>
               <div className="sidebar-body">
-                <NavbarMenus side={true}/>
+                <NavbarMenus closeNav={this.closeNav.bind(this)} side={true}/>
               </div>
             </aside>
           </div>  
