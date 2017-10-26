@@ -23,7 +23,7 @@ class Navbar extends Component{
 
     render(){
         return(
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar1">
+          <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar1">
 
               <button onClick={ () => this.toggleNav() } className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -47,6 +47,7 @@ class Navbar extends Component{
                 <button className="btn my-2 my-sm-0 btn-dark btn-sm" type="submit">Search</button>
               </form>
             </div>
+            
           </nav>
         );
     }

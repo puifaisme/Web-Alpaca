@@ -2185,13 +2185,13 @@ fieldset[disabled] a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #5c5c5c;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
+  background-color: #5c5c5c;
   border-color: #1d2124;
 }
 
@@ -5287,7 +5287,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #5c5c5c !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
