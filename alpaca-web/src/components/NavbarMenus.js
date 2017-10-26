@@ -8,15 +8,21 @@ class NavbarMenus extends Component{
 
     render(){
         return(
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+              <a onClick={() => this.closeNav()} className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item dropdown">
+              <a className={`nav-link ${this.props.side ?'':'dropdown-toggle'}`} id="navbarDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DESTINATION</a>
+              <div className={`${this.props.side ?'':"dropdown-menu"}`} aria-labelledby="navbarDropdown">
+                  <a onClick={() => this.closeNav()} className="dropdown-item" href="#">Cultural</a>
+                  <a onClick={() => this.closeNav()} className="dropdown-item" href="#">Natural</a>
+                  <a onClick={() => this.closeNav()} className="dropdown-item" href="#">Historical</a>
+                  <a onClick={() => this.closeNav()} className="dropdown-item" href="#">Lifestyle</a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" href="#">Disabled</a>
+              <a onClick={() => this.closeNav()} className="nav-link" href="#">ABOUT</a>
             </li>
           </ul>
         );
