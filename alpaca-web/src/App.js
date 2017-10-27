@@ -1,14 +1,13 @@
 import React from 'react'
+import Culture from './Culture'
 
-const componentName = () => {
+const App = () => {
 
     return (
-        <div>
-            <h1>นั้นใครอะ หน้าเหมือนเราเยยย</h1>
-
-            <h1> HELLO REACT </h1>
-    </div>
+        <div className="m-background">
+            <Culture/>
+        </div>
   )
 }
 
-export default componentName
+export default App
