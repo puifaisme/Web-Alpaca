@@ -1,11 +1,11 @@
 import React from 'react'
-import './culture.css'
-import pic1 from './static/picture/Pic1.jpg'
-import list from './static/picture/List.png'
-import map from './static/picture/Map.png'
-import wp from './static/picture/WP.jpg'
-import gpw from './static/picture/GPW.jpg'
-import wa from './static/picture/WA.jpg'
+import './../css/culture.css'
+import pic1 from './../static/picture/Pic1.jpg'
+import list from './../static/picture/List.png'
+import map from './../static/picture/Map.png'
+import wp from './../static/picture/WP.jpg'
+import gpw from './../static/picture/GPW.jpg'
+import wa from './../static/picture/WA.jpg'
 
 const Culture = () => {
 

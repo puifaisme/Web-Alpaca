@@ -1,12 +1,18 @@
 import React from 'react'
-import Culture from './Culture'
+import Culture from './components/Culture'
+import Navbar from './components/Navbar_S'
+import Footer from './components/Footer'
+
 
 const App = () => {
 
     return (
-        <div className="m-background">
-            <Culture/>
-        </div>
+        
+    <div>
+        <Navbar/>
+        <Culture/>
+        <Footer/>
+    </div>
   )
 }
 
