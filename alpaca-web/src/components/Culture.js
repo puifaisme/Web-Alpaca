@@ -13,8 +13,8 @@ import './../css/bootstrap.css'
 const Culture = () => {
 
     return (
-        <div className="margin">
-         <div className="BG">  
+        <div className="m-background">
+         <div className="BG margin">  
             <p className="b-culture "><button className="c-button c-font m-destination font-opan">DESTINATION</button></p> 
             <p className="t-color b-culture font-opan font-size-cul line">CULTURAL</p>
             <div><img src={pic1} width="79%" className="center"/></div>   
@@ -31,7 +31,7 @@ const Culture = () => {
             <div className="row">
                 <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={gpw} className="border-image"/></div>
                 <div className="col-6 col-md-6">
-                    <p className=" t-color font-pridi line1 line4 flow-tx">พระบรมมหาราชวัง</p>
+                    <p className=" t-color font-pridi line1 line4 flow-tx1">พระบรมมหาราชวัง</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">สร้างในสมัยรัชกาลที่ 1 เป็นสถานที่สำคัญในการใช้เป็นสถานที่ประกอบพระราชพิธีสำคัญต่าง ๆ ตามพระราชประเพณี  เป็นที่รับแขกเมือง และพระราชอาคันตุกะ รวมทั้งเป็นที่ตั้งพระบรมศพและพระศพของพระบรมวงศานุวงศ์ชั้นสูง</p>
                 </div>
             </div>

@@ -177,3 +177,34 @@ p.flow-tx {
     margin-right :5%;
   }
 }
+
+p.flow-tx1 {
+  font-size: 1.5rem;
+}
+/* Small devices (landscape phones, 576px and up) ---- 1 */
+@media (min-width: 576px) {
+  p.flow-tx1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p.flow-tx1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p.flow-tx1 {
+    font-size: 2.0rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p.flow-tx1 {
+    font-size: 2.4rem;
+  }
+}
