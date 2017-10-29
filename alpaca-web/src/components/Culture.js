@@ -21,7 +21,7 @@ const Culture = () => {
             <div align="center"><img src={list} width="4%" className="t-margin"/><img src={choose} width="3%" className="t-margin"/><img src={map} width="4%" className="t-margin"/></div>
         <div className="container">
              <div className="row">
-                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={wp} className="border-image"/></div>
+                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx">วัดโพธิ์</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">วัดพระเชตุพนวิมลมังคลาราม หรือ วัดโพธิ์เป็นพระอารมหลวงชั้นเอก ชนิดราชวรมหาวิหาร
@@ -29,14 +29,14 @@ const Culture = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={gpw} className="border-image"/></div>
+                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={gpw} className="col-12 col-md-9  m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx1">พระบรมมหาราชวัง</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">สร้างในสมัยรัชกาลที่ 1 เป็นสถานที่สำคัญในการใช้เป็นสถานที่ประกอบพระราชพิธีสำคัญต่าง ๆ ตามพระราชประเพณี  เป็นที่รับแขกเมือง และพระราชอาคันตุกะ รวมทั้งเป็นที่ตั้งพระบรมศพและพระศพของพระบรมวงศานุวงศ์ชั้นสูง</p>
                 </div>
             </div>
             <div className="row">
-                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start margin-v"> <img src={wa} className="border-image"/></div>
+                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start margin-v"> <img src={wa} className="col-12 col-md-9  m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx">วัดอรุณฯ</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">เป็นวัดที่มีมาตั้งแต่ครั้งสมัยกรุงศรีอยุธยา เดิมชื่อว่า "วัดแจ้ง" วัดนี้ได้รับการบูรณะปฏิสังขรณ์ครั้งใหญ่ในสมัยรัชกาลที่ 2 จึงถือเป็นวัดประจำรัชกาลที่ 2 เมื่อบูรณะเสร็จแล้วได้พระราชทานนามว่า "วัดอรุณราชธาราม"</p>
