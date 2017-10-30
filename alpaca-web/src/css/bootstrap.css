@@ -2156,15 +2156,15 @@ fieldset[disabled] a.btn {
 }
 
 .btn-light {
-  color: #111;
+  color: #5c5c5c;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  border-color: #5c5c5c;
 }
 
 .btn-light:hover {
-  color: #111;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
+  color: white;
+  background-color: #5c5c5c;
+  border-color: #5c5c5c;
 }
 
 .btn-light:focus, .btn-light.focus {
@@ -2190,9 +2190,9 @@ fieldset[disabled] a.btn {
 }
 
 .btn-dark:hover {
-  color: #fff;
+  color: white;
   background-color: #5c5c5c;
-  border-color: #1d2124;
+  border-color: #5c5c5c;
 }
 
 .btn-dark:focus, .btn-dark.focus {

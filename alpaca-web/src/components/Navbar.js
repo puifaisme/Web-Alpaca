@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../css/bootstrap.css';
-import Logo1 from '../img/logo1.png'
-import Logo2 from '../img/logo2.png'
+import '../css/animate.css';
+import '../css/style.css';
+import Logo1 from '../img/logo1.png';
+import Logo2 from '../img/logo2.png';
 
 class Navbar extends Component{
 
@@ -21,11 +23,16 @@ class Navbar extends Component{
       this.setState({ collapseNav: false })
     }
 
+    addClass() {
+        document.getElementById('navAnimated').className += "slideInDown";
+        document.getElementById('navAnimated').className = "navbar-toggler";
+    }
+
     render(){
         return(
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar1">
 
-              <button onClick={ () => this.toggleNav() } className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <button onClick={ () => this.toggleNav() } onClick={ () => this.addClass() } className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navAnimated">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <a className="navbar-brand mr-auto ml-3" href="#"><img src={Logo1} width="25px" className="mr-sm-2 mr-2"/><img src={Logo2} width="190px" /></a>
