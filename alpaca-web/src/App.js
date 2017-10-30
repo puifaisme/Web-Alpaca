@@ -1,5 +1,5 @@
 import React from 'react'
-import Culture from './components/Culture'
+import CulturalMap from './components/CulturalMap'
 import Navbar from './components/Navbar_S'
 import Footer from './components/Footer'
 
@@ -10,7 +10,9 @@ const App = () => {
         
     <div>
         <Navbar/>
-        <Culture/>
+
+        <CulturalMap/>
+
         <Footer/>
     </div>
   )

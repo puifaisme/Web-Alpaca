@@ -1,0 +1,40 @@
+.t-color {
+    color: #69696a;
+}
+.te-color {
+    color:black;
+}
+.font-opan {
+    font-family: 'Open Sans', sans-serif;
+  }
+.font-size-cyd {
+    font-size: 250%;
+}
+.font-size-wp {
+    font-size: 100%;
+}
+.line {
+    
+}
+.text{
+        position:absolute;
+        display:block;  
+        font-color : rgb(255, 255, 255);   
+        height:100%;/* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+        width:50px; /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ */
+        right:0px; /* css กำหนดชิดขวา  */
+        bottom:0px; /* css กำหนดชิดด้านล่าง  */
+        z-index:999;
+}
+.b-button{
+    background-color:orangered;
+}
+.t-font {
+    color: white;
+}
+.m-destination {
+    margin-top: 25px;
+}
+.font-opan {
+    font-family: 'Open Sans', sans-serif;
+}
