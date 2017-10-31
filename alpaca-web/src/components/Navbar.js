@@ -31,7 +31,7 @@ class Navbar extends Component{
     render(){
         return(
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar1">
-
+            <div className="container">
               <button onClick={ () => this.toggleNav() } onClick={ () => this.addClass() } className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navAnimated">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -49,12 +49,14 @@ class Navbar extends Component{
                   <a onClick={() => this.closeNav()} className="nav-link" href="#">ABOUT</a>
                 </li>
               </ul>
+              <div className="mr-3">
               <form className="form-inline my-2 my-lg-0">
                 <input className="form-control mr-sm-2 col-md-10 col-lg-auto" type="search" placeholder="Find your place" aria-label="Search" />
                 <button className="btn my-2 my-sm-0 btn-dark btn-sm" type="submit">Search</button>
               </form>
+              </div>
             </div>
-            
+            </div>
           </nav>
         );
     }
