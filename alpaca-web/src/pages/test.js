@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/bootstrap.css';
 import '../css/animate.css';
-import '../css/style.css';
 import Logo1 from '../img/logo1.png';
 import Logo2 from '../img/logo2.png';
 
@@ -24,14 +23,14 @@ class Navbar extends Component{
     }
 
     addClass() {
-        document.getElementById('navAnimated').className += "slideInDown";
+        document.getElementById('navAnimated').className += "slideInDown animated";
         document.getElementById('navAnimated').className = "navbar-toggler";
     }
 
     render(){
         return(
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar1">
-            <div className="container">
+
               <button onClick={ () => this.toggleNav() } onClick={ () => this.addClass() } className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navAnimated">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -39,7 +38,7 @@ class Navbar extends Component{
 
             <div className={`collapse navbar-collapse ${this.state.collapseNav ? 'show':''}`} id="navbar">
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
+                <li className="nav-item active">
                   <a onClick={() => this.closeNav()} className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
@@ -49,14 +48,12 @@ class Navbar extends Component{
                   <a onClick={() => this.closeNav()} className="nav-link" href="#">ABOUT</a>
                 </li>
               </ul>
-              <div className="mr-3">
               <form className="form-inline my-2 my-lg-0">
                 <input className="form-control mr-sm-2 col-md-10 col-lg-auto" type="search" placeholder="Find your place" aria-label="Search" />
                 <button className="btn my-2 my-sm-0 btn-dark btn-sm" type="submit">Search</button>
               </form>
-              </div>
             </div>
-            </div>
+            
           </nav>
         );
     }

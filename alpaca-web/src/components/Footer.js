@@ -68,7 +68,7 @@ render() {
                 <div className=" navbar navbar-expand-lg navbar-dark bg-dark d-block">
                     <ul className="navbar-nav mt-3">
                         <li className="col-2"></li>
-                        <li className="nav-item active col-1">
+                        <li className="nav-item col-1">
                             <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item col-2 col-xl-1 text-right">
