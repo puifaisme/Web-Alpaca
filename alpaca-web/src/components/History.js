@@ -7,6 +7,8 @@ import pn from './../static/picture/PN.jpg'
 import bt from './../static/picture/BT.jpg'
 import wm from './../static/picture/WM.jpg'
 import pic3 from './../static/picture/Pic3.jpg'
+import list1 from './../static/picture/list1.PNG'
+import map1 from './../static/picture/map1.PNG'
 import './../css/bootstrap.css'
 
 
@@ -14,12 +16,16 @@ const History = () => {
 
     return (
         <div className="m-background">
-         <div className="BG margin">  
-            <p className="b-culture "><button className="c-button c-font m-destination font-opan">DESTINATION</button></p> 
-            <p className="t-color b-culture font-opan font-size-cul line">HISTORICAL</p>
+         <div className="BG">  
+            <p className="b-culture"><button className="margin-t c-button c-font m-destination font-opan">DESTINATION</button></p> 
+            <p className="t-color b-culture font-opan font-size line">HISTORICAL</p>
             <div><img src={pic3} width="79%" className="col-12 col-md-10 center"/></div>   
-            <div align="center"><img src={list} width="4%" className="t-margin"/><img src={choose} width="3%" className="t-margin"/><img src={map} width="4%" className="t-margin"/></div>
+            <div align="center"><img src={list1} width="9%" className="ttt-mar t-margin"/><img src={map1} width="9%" className="tt-mar t-margin"/></div>
         <div className="container">
+        <div className="row">
+        <div className="col-md-1">
+                </div>
+            <div className="col-md-10">
              <div className="row">
                 <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={pn} className="col-12 col-md-9 m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
@@ -39,6 +45,10 @@ const History = () => {
                 <div className="col-6 col-md-6">
                     <p className="t-color font-pridi line1 line4 flow-tx1">พระที่นั่งวิมานเมฆ</p>
                     <p className="col-md-11 font1 t-color font-pridi line2 line3 flow-text">พระที่นั่งวิมานเมฆ เป็นพระที่นั่งถาวรองค์แรกในพระราชวังดุสิต สร้างด้วยไม้สักทองทั้งหลัง และนับว่าเป็นอาคารไม้สัก ทองที่ใหญ่ที่สุดในโลก</p>
+                </div>
+            </div>
+            </div>
+            <div className="col-md-1">
                 </div>
             </div>
             </div>

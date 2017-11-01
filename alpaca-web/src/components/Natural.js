@@ -7,6 +7,8 @@ import pic2 from './../static/picture/Pic2.jpg'
 import kd from './../static/picture/KD.jpg'
 import pk from './../static/picture/PK.jpg'
 import bp from './../static/picture/BP.jpg'
+import list1 from './../static/picture/list1.PNG'
+import map1 from './../static/picture/map1.PNG'
 import './../css/bootstrap.css'
 
 
@@ -14,13 +16,17 @@ const Natural = () => {
 
     return (
         <div className="m-background">
-         <div className="BG margin">  
-            <p className="b-culture "><button className="c-button c-font m-destination font-opan">DESTINATION</button></p> 
-            <p className="t-color b-culture font-opan font-size-cul line">NATURAL</p>
+         <div className="BG">  
+            <p className="b-culture "><button className="margin-t c-button c-font m-destination font-opan">DESTINATION</button></p> 
+            <p className="t-color b-culture font-opan font-size line">NATURAL</p>
             <div><img src={pic2} width="79%" className="center"/></div>   
-            <div align="center"><img src={list} width="4%" className="t-margin"/><img src={choose} width="3%" className="t-margin"/><img src={map} width="4%" className="t-margin"/></div>
+            <div align="center"><img src={list1} width="9%" className="ttt-mar t-margin"/><img src={map1} width="9%" className="tt-mar t-margin"/></div>
         <div className="container">
              <div className="row">
+            <div className="col-md-1">
+                </div>
+            <div className="col-md-10">
+            <div className="row">
                 <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={kd} className="col-12 col-md-9  m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx">สวนสัตว์เขาดิน</p>
@@ -43,12 +49,16 @@ const Natural = () => {
                         ในการรองรับความต้องการนั้น
                     </p>
                 </div>
-            </div>
+                </div>
+                </div>
+                <div className="col-md-1">
+                    </div>
+                </div>
+                </div>
+               
         </div>
-           
-    </div>
-    </div>
-  )
-}
-
-export default Natural
+        </div>
+      )
+    }
+    
+    export default Natural

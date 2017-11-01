@@ -2,9 +2,13 @@ import React from 'react'
 import Culture from './components/Culture'
 import Natural from './components/Natural'
 import History from './components/History'
-import Architecture from './components/Architecture'
-import Navbar from './components/Navbar_S'
+import Lifestyle from './components/Lifestyle'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import About from './components/About'
+import './css/animate.css'
+import './css/style.css'
+import './css/bootstrap.css'
 
 
 const App = () => {
@@ -12,11 +16,12 @@ const App = () => {
     return (
         
     <div>
-        {/* <Navbar/>
-        <Culture/>
-        <Natural/> */}
+        <Navbar/>
+        {/* <Culture/> */}
+        {/* <Natural/> */}
         {/* <History/> */}
-        <Architecture/>
+        <Lifestyle/>
+         {/* <About/> */}
         <Footer/>
     </div>
   )

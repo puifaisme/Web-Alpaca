@@ -7,6 +7,8 @@ import wp from './../static/picture/WP.jpg'
 import gpw from './../static/picture/GPW.jpg'
 import wa from './../static/picture/WA.jpg'
 import choose from './../static/picture/Choose.PNG'
+import list1 from './../static/picture/list1.PNG'
+import map1 from './../static/picture/map1.PNG'
 import './../css/bootstrap.css'
 
 
@@ -14,13 +16,17 @@ const Culture = () => {
 
     return (
         <div className="m-background">
-         <div className="BG margin">  
+         <div className="BG">  
             <p className="b-culture "><button className="c-button c-font m-destination font-opan">DESTINATION</button></p> 
-            <p className="t-color b-culture font-opan font-size-cul line">CULTURAL</p>
+            <p className="t-color b-culture font-opan font-size line">CULTURAL</p>
             <div><img src={pic1} width="79%" className="center"/></div>   
-            <div align="center"><img src={list} width="4%" className="t-margin"/><img src={choose} width="3%" className="t-margin"/><img src={map} width="4%" className="t-margin"/></div>
+            <div align="center"><img src={list1} width="9%" className="ttt-mar t-margin"/><img src={map1} width="9%" className="tt-mar t-margin"/></div>
         <div className="container">
-             <div className="row">
+        <div className="row">
+           <div className="col-md-1">
+               </div>
+           <div className="col-md-10">
+           <div className="row">
                 <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx">วัดโพธิ์</p>
@@ -41,12 +47,16 @@ const Culture = () => {
                     <p className=" t-color font-pridi line1 line4 flow-tx">วัดอรุณฯ</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">เป็นวัดที่มีมาตั้งแต่ครั้งสมัยกรุงศรีอยุธยา เดิมชื่อว่า "วัดแจ้ง" วัดนี้ได้รับการบูรณะปฏิสังขรณ์ครั้งใหญ่ในสมัยรัชกาลที่ 2 จึงถือเป็นวัดประจำรัชกาลที่ 2 เมื่อบูรณะเสร็จแล้วได้พระราชทานนามว่า "วัดอรุณราชธาราม"</p>
                 </div>
-            </div>
+                </div>
+                </div>
+                <div className="col-md-1">
+                    </div>
+                </div>
+                </div>
+               
         </div>
-           
-    </div>
-    </div>
-  )
-}
-
-export default Culture
+        </div>
+      )
+    }
+    
+    export default History
