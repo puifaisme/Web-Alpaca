@@ -31,7 +31,7 @@ const Lifestyle = () => {
                         <div className="col-6 col-md-6">
                             <p className="t-color font-pridi line1 line4 flow-tx1">เอเชียทีค เดอะ ริเวอร์ ฟรอนต์</p>
                             <p className="col-md-11 font1 t-color font-pridi line2 line3 flow-text">ท่าเรือนี้ คือสัญญาณการเริ่มต้นของการทำการค้าระหว่างประเทศ เป็นแลนด์มาร์คกรุงเทพฯ ให้ทุกคนได้ไปเดินชิลล์ สบายๆ บริเวณริมแม่น้ำเจ้าพระยาในวันหยุดสั้นๆ ได้</p>
-                            <p className="mar3 pad-r"><button className="t-color border3 font-opan font-tx2 ">MORE</button></p>
+                            <p className="mar3"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
                         </div>
                     </div>
                     <div className="row">
@@ -39,7 +39,7 @@ const Lifestyle = () => {
                         <div className="col-6 col-md-6">
                             <p className="t-color font-pridi line1 line4 flow-tx1">เอเชียทีค เดอะ ริเวอร์ ฟรอนต์</p>
                             <p className="col-md-11 font1 t-color font-pridi line2 line3 flow-text">ท่าเรือนี้ คือสัญญาณการเริ่มต้นของการทำการค้าระหว่างประเทศ เป็นแลนด์มาร์คกรุงเทพฯ ให้ทุกคนได้ไปเดินชิลล์ สบายๆ บริเวณริมแม่น้ำเจ้าพระยาในวันหยุดสั้นๆ ได้</p>
-                            <p className="mar3 pad-r"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
+                            <p className="mar3"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
                         </div>
                     </div>
                     <div className="row">
@@ -47,7 +47,7 @@ const Lifestyle = () => {
                         <div className="col-6 col-md-6">
                             <p className="t-color font-pridi line1 line4 flow-tx1">หอศิลปวัฒนธรรมแห่งกรุงเทพ</p>
                             <p className="col-md-11 font1 t-color font-pridi line2 line3 flow-text">หอศิลปวัฒนธรรมของประชาชน ส่งเสริมความหลากหลายทางศิลปวัฒนธรรมเพื่อพัฒนาสังคมที่ยั่งยืน เป็นหอศิลป์ที่รวบรวมศิลปะไว้มากมาย ช่วยผ่อนคลายให้จิตใจปลอดโปร่งได้</p>
-                            <p className="mar3 pad-r"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
+                            <p className="mar3"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
                         </div>
                     </div>
                 </div>

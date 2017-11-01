@@ -10,6 +10,12 @@ p {
     font-family: 'Open Sans';
 }
 
+#text2 {
+    border: solid thin orangered;
+    background-color: orangered;
+    color: white;
+}
+
 #footer1 {
     bottom: 0;
 }

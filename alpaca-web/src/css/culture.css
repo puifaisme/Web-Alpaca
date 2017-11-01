@@ -10,9 +10,6 @@
 .border-img {
   border-radius : 50%;
 }
-.bor-img {
-  border-radius: 88%
-}
 .mar3 {
 margin-left: 67%;
 }
@@ -319,7 +316,15 @@ p.font-size {
   padding-left: 1%
 }
 .pad-r {
-  padding-right: 5%
+  padding-right: 2%
+}
+.box {
+  width: 15%;
+  height:10%;
+  /* ส่วนของ การแสดงเส้น  */
+  border-color: #69696a;
+  border-style:solid;
+  /* จบส่วนของ การแสดงเส้น  */
 }
 .pad-t {
   padding-top: 2%
