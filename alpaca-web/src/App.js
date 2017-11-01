@@ -18,10 +18,10 @@ const App = () => {
     <div>
         <Navbar/>
         {/* <Culture/> */}
-        {/* <Natural/> */}
+        <Natural/>
         {/* <History/> */}
-        <Lifestyle/>
-         {/* <About/> */}
+        {/* <Lifestyle/> */}
+        {/* <About/> */}
         <Footer/>
     </div>
   )
