@@ -1,3 +1,32 @@
+* {
+    color: #5c5c5c;
+}
+
+p {
+    font-family: 'Pridi';
+}
+
+#text1 {
+    font-family: 'Open Sans';
+}
+
+#text2 {
+    border: solid thin orangered;
+    background-color: orangered;
+    color: white;
+}
+
+#text3 {
+    font-size: 350%;
+}
+
+#text4 {
+    border: solid gray thin;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-family: 'Pridi';
+}
+
 #footer1 {
     bottom: 0;
 }
@@ -10,57 +39,104 @@
     font-size: 0.9em;
 }
 
-.sidebar {
-    top:0;
-    position: fixed;
-    width: 80%;
-    transition: left 0.5s;
-    background-color: #dfdfdf;
-    height: 100vh;
-}
-.sidebar-head {
-    padding-top: 20px;
-    padding-bottom:9px;
-}
-.sidebar-head .cross-icon {
+#homeimg1 {
     width: 100%;
-    cursor: pointer;
 }
 
-.sidebar-body {
-    padding-top: 40px;
-    padding-left:30px;
-    background-color: #1C2934;
-    color: #E8E9EA;
-    height:100%;
-}
-.sidebar-body a {
-    color: #E8E9EA;
-}
-.sidebar-body .dropdown-menu {
-    background-color: unset !important;
+#homeimg2 {
+    max-width: 70px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
-.side-off {
-    left: -80%;
+#hometext {
+    font-family: 'Trirong', serif;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 
-.side-on {
-    left: 0px;
+#navbar1 {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 8%;
 }
 
-.bg-overlay{
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    transition:background 0.5s;
-    pointer-events: none;
+#body1 {
+    border-top: solid thick orangered;
 }
-.bg-overlay-on{
-    background: rgba(255, 255, 255, 0.7);
+
+#map1 {
+    border: solid thin gray;
+    height: 400px;
 }
-.bg-overlay-off{
-    background: rgba(255, 255, 255, 0.0);
+
+#margint {
+    margin-top: 10% ;
 }
+
+@media only screen and (max-width: 1023px) {
+    
+        #body1 {
+            text-align: center;
+        }
+        
+    }
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    #navbar1 {
+        position: absolute;
+        z-index: 1000;
+        opacity: 0.9;
+        height: 10%;
+    }
+
+    #text1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) {
+
+    #navbar1 {
+        position: absolute;
+        z-index: 1000;
+        opacity: 0.9;
+        height: 10%;
+    }
+
+    #homeimg2 {
+        max-width: 100px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #text1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans);
+  }
+
+  @font-face {
+    font-family: 'Pridi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.googleapis.com/css?family=Pridi);
+  }

@@ -6,6 +6,10 @@ import LifestyleMap from './components/LifestyleMap'
 import NaturalMap from './components/NaturalMap'
 import Navbar from './components/Navbar_S'
 import Footer from './components/Footer'
+import About from './components/About'
+import './css/animate.css'
+import './css/style.css'
+import './css/bootstrap.css'
 
 
 const App = () => {
