@@ -40,13 +40,13 @@ class Navbar extends Component{
             <div className={`collapse navbar-collapse ${this.state.collapseNav ? 'show':''}`} id="navbar">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a onClick={() => this.closeNav()} className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
+                  <a onClick={() => this.closeNav()} className="nav-link" href="#" activeclass="active">HOME <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                  <a onClick={() => this.closeNav()} className="nav-link" href="#">DESTINATION</a>
+                  <a onClick={() => this.closeNav()} className="nav-link" href="#" activeclass="active">DESTINATION</a>
                 </li>
                 <li className="nav-item">
-                  <a onClick={() => this.closeNav()} className="nav-link" href="#">ABOUT</a>
+                  <a onClick={() => this.closeNav()} className="nav-link" href="#" activeclass="active">ABOUT</a>
                 </li>
               </ul>
               <div className="mr-3">
