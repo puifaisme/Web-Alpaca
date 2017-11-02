@@ -1,5 +1,5 @@
 import React from 'react'
-import pic2 from './../static/picture/Pic2.jpg'
+import pic2 from './../static/picture/pic2.jpg'
 import list from './../static/picture/List.png'
 import map from './../static/picture/Map.png'
 import map4 from './../static/picture/map4.jpg'

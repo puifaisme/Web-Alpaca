@@ -19,7 +19,7 @@ const Destination = () => {
                     </div>
                     <div className="col-6 col-md-4">
                         <p className="f-topic font-opan">Cultural</p>
-                        <a href="" className="choose-button font-opan">
+                        <a href="/destination/cultural" className="choose-button font-opan">
                             CHOOSE THIS
                         </a>
                     </div>
@@ -30,7 +30,7 @@ const Destination = () => {
                     </div>
                     <div className="col-6 col-md-4">
                         <p className="f-topic font-opan">Historical</p>
-                        <a href="" className="choose-button">
+                        <a href="/destination/historical" className="choose-button">
                             CHOOSE THIS
                         </a>
                     </div>
@@ -41,7 +41,7 @@ const Destination = () => {
                     </div>
                     <div className="col-6 col-md-4">
                         <p className="f-topic font-opan">Lifestyle</p>
-                        <a href="" className="choose-button">
+                        <a href="/destination/lifestyle" className="choose-button">
                             CHOOSE THIS
                         </a>
                     </div>
@@ -52,7 +52,7 @@ const Destination = () => {
                     </div>
                     <div className="col-6 col-md-4">
                         <p className="f-topic font-opan">Natural</p>
-                        <a href="" className="choose-button">
+                        <a href="/destination/natural" className="choose-button">
                             CHOOSE THIS
                         </a>
                     </div>

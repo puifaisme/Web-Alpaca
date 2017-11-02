@@ -9,6 +9,12 @@ import homeimg3 from '../img/home_img3.jpg';
 import mapimg1 from '../img/map_img1.png';
 import mapimg2 from '../img/map_img2.png';
 
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom'
+
 class Home extends React.Component {
 
     constructor() {
@@ -56,9 +62,9 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="text-center mb-1 mt-1">
                             <br />
-                            <button className="btn btn-light btn-lg col-lg-3 col-4" type="submit">
-                                START
-                            </button>
+                                <Link to="/destination" className="btn btn-light btn-lg col-lg-3 col-4">
+                                    START
+                                </Link>
                         </div>
                         <br />
                         <div className="col-12"> 
@@ -134,7 +140,7 @@ class Home extends React.Component {
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossOrigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossOrigin="anonymous"></script>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
           )
       }

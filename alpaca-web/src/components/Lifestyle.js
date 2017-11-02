@@ -2,7 +2,7 @@ import './../css/culture.css'
 import list from './../static/picture/List.png'
 import map from './../static/picture/Map.png'
 import choose from './../static/picture/Choose.PNG'
-import pic4 from './../static/picture/Pic4.jpg'
+import pic4 from './../static/picture/pic4.jpg'
 import tn from './../static/picture/TN.jpg'
 import at from './../static/picture/AT.jpg'
 import hk from './../static/picture/HK.jpg'
@@ -10,6 +10,11 @@ import list1 from './../static/picture/list1.PNG'
 import map1 from './../static/picture/map1.PNG'
 import './../css/bootstrap.css'
 import React, { Component } from 'react';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom'
 
 class Lifestyle extends Component{
     
@@ -44,7 +49,13 @@ render() {
             <p className="b-culture "><button className="margin-t c-button c-font m-destination font-opan">DESTINATION</button></p> 
             <p className="t-color b-culture font-opan font-size line">LIFESTYLE</p>
             <div><img src={pic4} className="col-12 col-md-10 center"/></div>   
-            <div align="center"><img src={list} width="6%" className="ttt-mar t-margin"/><img src={choose} width="4%" className="t-margin"/><img src={map} width="6%" className="tt-mar t-margin"/></div>
+            <div align="center">
+                <img src={list} width="6%" className="ttt-mar t-margin"/>
+                <img src={choose} width="4%" className="t-margin"/>
+                <Link to="/destination/lifestyle/map">
+                    <img src={map} width="6%" className="tt-mar t-margin"/>
+                </Link>
+            </div>
         <div className="container">
             <div className="row">
                 <div className="col-md-1">
@@ -91,7 +102,7 @@ else {
             <p className="b-culture "><button className="margin-t c-button c-font m-destination font-opan">DESTINATION</button></p> 
             <p className="t-color b-culture font-opan font-size line">LIFESTYLE</p>
             <div><img src={pic4} className="col-12 col-md-10 center"/></div>   
-            <div align="center"><img src={list1} width="9%" className="t-margin ttt-mar"/><img src={map1} width="9%" className="t-margin tt-mar"/></div>
+            <div align="center"><img src={list1} width="9%" className="t-margin ttt-mar"/><Link to="/destination/lifestyle/map"><img src={map1} width="9%" className="t-margin tt-mar"/></Link></div>
         <div className="container">
             <div className="row">
                 <div className="col-md-1">
