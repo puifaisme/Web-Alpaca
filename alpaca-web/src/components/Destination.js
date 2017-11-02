@@ -12,18 +12,21 @@ const Destination = () => {
         <div>
             {/* container */}
             <p className="t-color font-opan font-size-cyd text-center">CHOOSE YOUR DESTINATION</p>
-            <hr width="20%" height="100%" color="orenge"></hr>
-            <img src={pic1} width="100%" className="center"/>
+            <hr width="20%" size="100%" color="orange"></hr>
+            <div className="container b-image">
+                {<p className="bottomright">CULTURAL</p>}
+            </div>
+            
+            {/* <img src={pic1} width="100%" className="center"/>
             <img src={pic2} width="100%" className="center"/>
             <img src={pic3} width="100%" className="center"/>
-            <img src={pic4} width="100%" className="center"/>
+            <img src={pic4} width="100%" className="center"/> */}
         </div>
         
 
 
 
     )
-
 }
 
 export default Destination

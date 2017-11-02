@@ -1,14 +1,11 @@
 .BG {
   background-color: #e7e7e7
 }
-.border {
-  border-radius : 30px;
-  /* padding: 50px; */
-  width: 320px;
-  height: 220px;
-  border: 2px solid #696969;
-  margin-left: 150px;
-  margin-top: 50px;
+.border-image {
+  border-radius : 15%;
+  /* border: 3px solid #69696a; */
+  /* margin-left: 13%; */
+  margin-top: 9%;
 }
 .t-color {
   color: #69696a
@@ -16,29 +13,19 @@
 .flex {
   display:flex;
 }
-.font {
-  font-size: 50px;
-}
+/* .font {
+  font-size: 280%;
+} */
 .font1 {
-  font-size: 25px;
-  padding-right: 150px;
-  padding-left: 30px;
-  line-height: 40px;
+  font-size: 150%;
+  padding-right: 10%;
+  
 }
 .c-button{
   background-color: #fd6820;
 }
-@font-face {
-  font-family: myFirstFont;
-  src: url(/font/Open-Sans/OpenSans-Italic.TTF);
-}
-.margin {
-  margin-left: 86px;
-  margin-right: 86px;
-  margin-top: -16px;
-}
 .m-background {
-  background-color: black
+  background-color: black;
 }
 .center {
   display: block;
@@ -48,31 +35,206 @@
   color: white;
 }
 .b-culture {
-  padding-left: 150px;
+  padding-left: 13%;
 }
 .m-destination {
-  margin-top: 25px;
+  margin-top: 3%;
 }
 .font-opan {
   font-family: 'Open Sans', sans-serif;
 }
 .font-size-cul {
-  font-size: 60px;
+  font-size: 440%;
 }
 .line {
-  line-height: 1px;
+  margin-top: 1%;
+}
+.line3 {
+  margin-top: 2%;
+}
+.line4 {
+  margin-top: 11%;
 }
 .line1 {
-  text-indent: 100px;
-  line-height: 10px;
+  line-height: 2rem;
 }
 .line2 {
-  line-height:40px;
-  text-indent: 30px;
+  line-height:150%;
+  text-indent: 8%;
 }
 .font-pridi {
   font-family: 'Pridi', serif;
 }
 .l-margin {
   margin: 10px;
+}
+.b-top {
+  border-top: 90px;
+}
+.t-margin {
+  margin-top: 30px;
+}
+.row {
+  grid-row: 'col-xs-6' 'col-sm-4' 'col-md-5' 'col-lg-7';
+}
+
+p.flow-text {
+  font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  p.flow-text {
+    font-size: 1.0625rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p.flow-text {
+    font-size: 1.125rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p.flow-text {
+    font-size: 1.1825rem;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  p.flow-tx {
+    font-size: 1.25rem;
+  }
+}
+
+p.flow-tx {
+  font-size: 1.8rem;
+}
+/* Small devices (landscape phones, 576px and up) ---- 1 */
+@media (min-width: 576px) {
+  p.flow-tx {
+    font-size: 2.1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p.flow-tx {
+    font-size: 2.4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p.flow-tx {
+    font-size: 2.8rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p.flow-tx {
+    font-size: 3rem;
+  }
+}
+
+.margin-v {
+  margin-bottom: 4%;
+}
+
+/* Small devices (landscape phones, 576px and up) ---- 2 */
+@media (min-width: 576px) {
+  div.margin {
+    margin-left : 0%;
+    margin-right :0%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  div.margin {
+    margin-left : 1.9%;
+    margin-right : 1.9%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  div.margin {
+    margin-left : 3.5%;
+    margin-right :3.5%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  div.margin {
+    margin-left : 5%;
+    margin-right :5%;
+  }
+}
+
+p.flow-tx1 {
+  font-size: 1.5rem;
+}
+/* Small devices (landscape phones, 576px and up) ---- 3 */
+@media (min-width: 576px) {
+  p.flow-tx1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p.flow-tx1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p.flow-tx1 {
+    font-size: 2.0rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p.flow-tx1 {
+    font-size: 2.4rem;
+  }
+}
+
+img.m-pt {
+  margin-left: 2%
+}
+/* Small devices (landscape phones, 576px and up) ---- 3 */
+@media (min-width: 576px) {
+  img.m-pt {
+    margin-left: 4%
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  img.m-pt {
+   margin-left: 5%
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  img.m-pt {
+    margin-left: 6%
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  img.m-pt {
+    margin-left: 15%
+  }
 }
