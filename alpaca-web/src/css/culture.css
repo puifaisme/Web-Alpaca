@@ -13,6 +13,9 @@
 .mar3 {
 margin-left: 67%;
 }
+.mar4 {
+  margin-left: 77%;
+  }
 .border1 {
   margin-top: 1%;
 }
@@ -113,33 +116,33 @@ margin-left: 67%;
 }
 
 p.flow-text {
-  font-size: 0.7rem;
+  font-size: 0.478rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   p.flow-text {
-    font-size: 1.0625rem;
+    font-size: 0.754rem;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   p.flow-text {
-    font-size: 1.125rem;
+    font-size: 0.856rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   p.flow-text {
-    font-size: 1.1825rem;
+    font-size: 1.089rem;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-  p.flow-tx {
+  p.flow-text {
     font-size: 1.25rem;
   }
 }
@@ -211,33 +214,33 @@ p.flow-tx {
 }
 
 p.flow-tx1 {
-  font-size: 1.0rem;
+  font-size: 1.166rem
 }
-/* Small devices (landscape phones, 576px and up) ---- 3 */
+  /* Small devices (landscape phones, 576px and up) ---- 3 */
 @media (min-width: 576px) {
   p.flow-tx1 {
-    font-size: 1.2rem;
+    font-size: 1.333rem;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   p.flow-tx1 {
-    font-size: 1.4rem;
+    font-size: 1.566rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   p.flow-tx1 {
-    font-size: 2.0rem;
+    font-size: 1.86rem;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   p.flow-tx1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -273,33 +276,33 @@ img.m-pt {
 }
 
 p.font-size {
-  font-size: 3.16rem
+  font-size: 2.788rem
 }
 /* Small devices (landscape phones, 576px and up) ---- 3 */
 @media (min-width: 576px) {
   p.font-size {
-    font-size: 3.33rem
+    font-size: 3.15rem
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   p.font-size {
-   font-size: 3.58rem
+   font-size: 3.46rem
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   p.font-size {
-    font-size: 3.8rem
+    font-size: 3.677rem
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   p.font-size {
-    font-size: 4.0rem
+    font-size: 3.899rem
   }
 }
 .wid {
@@ -382,4 +385,13 @@ p.font-tx2 {
 
 .tx-cen {
   text-align: center;
+}
+.font-s {
+  font-size: 2.3rem;
+}
+.l-h {
+  line-height: 4%
+}
+.l-h1 {
+  line-height: 10%
 }
