@@ -44,7 +44,7 @@ class Home extends React.Component {
       if (isMobile) {
           return (
             <div name="home" className="">
-                <Navbar />
+                
                 <div id="carousel1" className="carousel" data-ride="carousel" >
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -86,7 +86,7 @@ class Home extends React.Component {
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossOrigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossOrigin="anonymous"></script>
                 </div>
-                <Footer />
+                
             </div>
           )
       }
@@ -94,7 +94,7 @@ class Home extends React.Component {
       else {
           return (
             <div name="home" className="">
-                <Navbar />
+                
                 <div id="carousel1" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -112,9 +112,9 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="text-center mb-1 mt-1">
                             <br />
-                            <button className="btn btn-light btn-lg col-lg-3 col-4" type="submit">
-                                START
-                            </button>
+                            <Link to="/destination" className="btn btn-light btn-lg col-lg-3 col-4">
+                                    START
+                            </Link>
                         </div>
                         <br />
                         <div className="col-12 text-center mb-3">

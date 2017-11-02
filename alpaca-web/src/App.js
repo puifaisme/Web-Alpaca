@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import About from './components/About'
 import Home from './pages/Home'
+import Info from './pages/Info'
 import './css/animate.css'
 import './css/style.css'
 import './css/bootstrap.css'
@@ -40,6 +41,7 @@ const App = () => {
                 <Route exact path="/destination/cultural/map" component={CulturalMap}/>
                 <Route exact path="/destination/natural/map" component={NaturalMap}/>
                 <Route exact path="/destination/historical/map" component={HistoricalMap}/>
+                <Route exact path="/destination/cultural/watpho" component={Info}/>
                 <Route exact path="/about" component={About}/>
                 {/* <Home/> */}
                 {/* <Destination/> */}

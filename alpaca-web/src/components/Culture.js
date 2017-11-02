@@ -11,6 +11,12 @@ import map1 from './../static/picture/map1.PNG'
 import './../css/bootstrap.css'
 import React, { Component } from 'react';
 
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom'
+
 class Culture extends Component{
     
     constructor() {
@@ -51,7 +57,7 @@ render() {
                </div>
            <div className="col-md-10">
            <div className="row">
-                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></div>
+                <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"><Link to="/Info"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></Link></div>
                 <div className="col-6 col-md-6">
                     <p className=" t-color font-pridi line1 line4 flow-tx l-h">วัดโพธิ์</p>
                     <p className="font1 t-color font-pridi line2 line3 flow-text">วัดพระเชตุพนวิมลมังคลาราม หรือ วัดโพธิ์เป็นพระอารมหลวงชั้นเอก ชนิดราชวรมหาวิหาร
@@ -99,12 +105,12 @@ render() {
                   </div>
               <div className="col-md-10">
               <div className="row">
-                   <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></div>
+                   <div className="col-6 col-md-6 d-flex align-items-center align-items-md-start"><Link to="/Info"> <img src={wp} className="col-12 col-md-9  m-pt border-image"/></Link></div>
                    <div className="col-6 col-md-6">
                        <p className=" t-color font-pridi line1 line4 flow-tx">วัดโพธิ์</p>
                        <p className="font1 t-color font-pridi line2 line3 flow-text">วัดพระเชตุพนวิมลมังคลาราม หรือ วัดโพธิ์เป็นพระอารมหลวงชั้นเอก ชนิดราชวรมหาวิหาร
                        เป็นวัดประจำรัชกาลในรัชกาลที่ 1 และเปรียบเสมือนเป็นมหาวิทยาลัยแห่งแรกของประเทศไทย</p>
-                       <p className="mar3"><button className="t-color border3 font-opan font-tx2">MORE</button></p>
+                       <p className="mar3"><Link to="/Info" className="t-color border3 font-opan font-tx2">MORE</Link></p>
                    </div>
                </div>
                <div className="row">

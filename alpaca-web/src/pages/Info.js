@@ -47,7 +47,7 @@ class Info extends Component{
               </div>
               <div name="map" className=" mb-2 col-10 ml-auto mr-auto">
                 <div className=" text-center mt-4 mb-1" style={{fontSize: 30+'px'}}>MAP</div>
-                <div width="70%" className= "text-center" id="map1">นี่แผนที่ไงจำไม่ได้หรอ</div>
+                <div width="70%" style={{height:200+'px'}} className= "text-center" id="map1">นี่แผนที่ไงจำไม่ได้หรอ</div>
               </div>
               <div className=" col-10 d-inline-block ml-auto mr-auto">
                 <li className="text-center">
